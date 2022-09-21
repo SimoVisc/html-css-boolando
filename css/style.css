@@ -14,31 +14,35 @@ body{
 }
 .container-row{
     max-width: 1200px;
-    display:flex;
-    margin: ;
+    display: flex;
+    margin: 5px 100px 5px 100px  ;
 
     
 }
 .col-1,.col-2,.col-3{
-    width: calc(100%-20px);
-    margin: 10px;
+    margin: 20px;
     
+    
+    
+}
+article{
+   
 }
 
 
 /* HEADER */
 header{
     background-color: #FF6900;
-    padding: 16px 0;
+    padding: 16px;
     width: 100%;
     height: 10%;
+    position: static;
 } 
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-   
-   
+    position: static;
 }
 .genere{
     width: 33%;
@@ -50,25 +54,31 @@ nav{
     width: 33%;
 }
 .logo-img{
-   ;
-    width: 10%;
+   width: 10%;
 }
 .icone{
     display: flex;
     width: 33%;
-   ;
+    justify-content: flex-end;
 }
-
 i{
     color: white;
     font-weight: 10%;
-    text-align: right;
+    padding: 5px;
+    
 }
 /* MAIN */
 main{
     
 }
-
+section{
+    display: flex;
+  
+}
+.imm{
+   width: 300px;
+   height:400px ;
+   
 
 
 
