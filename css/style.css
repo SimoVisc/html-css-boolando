@@ -34,13 +34,13 @@ header{
 } 
 nav{
     display: flex;
-    text-align: center;
+    align-items: center;
    
    
 }
 .genere{
     width: 33%;
-    text-align: center;
+    text-align: left;
     color:white
 }   
 .logo{
@@ -48,20 +48,19 @@ nav{
     width: 33%;
 }
 .logo-img{
-    align-items: center;
+    text-align: center;
     width: 10%;
 }
 .icone{
     display: flex;
     width: 33%;
-    align-items: center;
     text-align: right;
 }
 
 i{
     color: white;
     font-weight: 10%;
-    text-align: center;
+    text-align: right;
 }
 /* MAIN */
 section{
