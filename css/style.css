@@ -14,15 +14,15 @@ body{
 }
 .container-row{
     max-width: 1200px;
+    display:flex;
+
     
 }
 .col-1,.col-2,.col-3{
-   
+    width: calc(100%-20px);
+    margin: 10px;
     
 }
-
-
-
 
 
 /* HEADER */
@@ -63,8 +63,12 @@ i{
     text-align: right;
 }
 /* MAIN */
-section{
+main{
+    margin: 50%;
+}
 
+section{
+    
 }
 
 
